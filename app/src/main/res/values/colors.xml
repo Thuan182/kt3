@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A0EC5E</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="grayLight">#fafafa</color>
+    <color name="startyellow">#ff63</color>
+    <color name="endyellow">#fff</color>
+    <color name="colorAccent">#ff6</color>
+    <color name="nen">#F0FFF0</color>
+    <color name="nen1">#EEAEEE</color>
+
+    #FFFFE0
+
+</resources>

@@ -1,0 +1,49 @@
+package com.example.myapplication.tablayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+
+public class ViewPagerAdapter extends FragmentStatePagerAdapter {
+
+    public ViewPagerAdapter(@NonNull FragmentManager fm, int behavior) {
+        super(fm, behavior);
+    }
+
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+        switch (position){
+            case 0:
+                return new ThucUongFragment();
+            case 1:
+                return new DoAnFragment();
+
+            default:
+                return new ThucUongFragment();
+        }
+    }
+
+    @Override
+    public int getCount() {
+        return 3;
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        String title = "";
+        switch (position) {
+            case 0:
+                title = "Thức uống" ;
+                break;
+            case 1:
+                title  = "Đồ ăn";
+                break;
+        }
+
+        return title;
+    }
+}

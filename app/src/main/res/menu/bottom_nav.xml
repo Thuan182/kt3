@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actiontc_245"
+        android:enabled="true"
+        android:title="Trang Chủ"
+        android:icon="@drawable/ic_trangchu"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/actionmh_245"
+        android:enabled="true"
+        android:title="Mua Hàng"
+        android:icon="@drawable/ic_muahang"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/actiontb_245"
+        android:enabled="true"
+        android:title="Thông Báo"
+        android:icon="@drawable/ic_thongbao"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/actioncn_245"
+        android:enabled="true"
+        android:title="Cá Nhân"
+        android:icon="@drawable/ic_canhan"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
